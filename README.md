@@ -40,7 +40,7 @@ Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender 
 
 #Ezequiel
 
-# Rodrigo Zaldivar
+### Rodrigo Zaldivar
 
 - Me llamo Rodrigo ZAldivar Pichardo, resido en Mexico en una ciudad llamada Toluca a unos 50 minutos de la capital (CDMX). Tengo 23 años y me dedico a estudiar Ing. en Sistemas, a la par de esto y el curso en Digital House me dedico a trabajar en una consultora de desarrollo web llamada Teracom.mx, me gusta mucho hacer ejercicio y me interesa mucho el mundo de la programación. Me interesé en este curso porque me gustaría encontrar un mejor trabajo y además serguir puliendo los conocimientos que ya poseo.
 
