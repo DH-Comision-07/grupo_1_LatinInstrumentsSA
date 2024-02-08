@@ -42,11 +42,16 @@ Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender 
 
 ### Rodrigo Zaldivar
 
-- Me llamo Rodrigo ZAldivar Pichardo, resido en Mexico en una ciudad llamada Toluca a unos 50 minutos de la capital (CDMX). Tengo 23 años y me dedico a estudiar Ing. en Sistemas, a la par de esto y el curso en Digital House me dedico a trabajar en una consultora de desarrollo web llamada Teracom.mx, me gusta mucho hacer ejercicio y me interesa mucho el mundo de la programación. Me interesé en este curso porque me gustaría encontrar un mejor trabajo y además serguir puliendo los conocimientos que ya poseo.
+- Me llamo Rodrigo Zaldivar Pichardo, resido en Mexico en una ciudad llamada Toluca a unos 50 minutos de la capital (CDMX). Tengo 24 años y me dedico a estudiar Ing. en Sistemas, a la par de esto y el curso en Digital House me dedico a trabajar en una consultora de desarrollo web llamada Teracom.mx, me gusta mucho hacer ejercicio y me interesa mucho el mundo de la programación. Me interesé en este curso porque me gustaría encontrar un mejor trabajo y además serguir puliendo los conocimientos que ya poseo. 👍
 
-#Agustin
-#Fede
-#Hernando
-#Pablo
-#Soledad
-#Rodrigo
+### Agustin Tammone
+
+- Mi nombre es Agustín Tammone y vivo en Cipolletti, Rio Negro, Argentina a tan solo 8 kilómetros de Neuquén Capital. Tengo 30 años, soy Técnico Electromecánico y actualmente me encuentro trabajando en la industria Oil&Gas en una empresa de Neuquén. A su vez, decidí comenzar el curso en Digital House de Programacion Web Full Stack ya que siempre estuve interesado en este rubro, habiendo incursionado durante la secundaria y parte de mi pasar por la universidad, donde estudié hasta 4to año de ingeniería electrónica. En mi pasar por la UNCO, pude aprender sobre lenguajes como FPGA y C para microchips. Ahora, estoy enfocado en el futuro y ese futuro es indispensable que cuente con conocimientos de programación.  
+
+### Hernando Parra
+- Mi nombre es Hernando Parra Zapata soy de Pereira, Colombia, tengo 38 años, soy ingeniero industrial tengo una especialización en finanzas, actualmente tengo una empresa de reparación de herramientas industriales y venta de herramientas, ingrese al curso de Digital House porque siempre he tenido curiosidad por el desarrollo y quiero hacer un cambio de carrera, no tengo experiencia ni conocimientos previos en desarrollo, pero tengo toda la disposición y las ganas de aprender.
+
+  #Fede
+  #Pablo
+  #Soledad
+  #Rodrigo
