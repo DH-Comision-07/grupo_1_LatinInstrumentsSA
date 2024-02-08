@@ -49,6 +49,12 @@ Mi nombre es Ezequiel Paz, tengo 34 años, vivo en Buenos Aires, Argentina. Soy 
 ### Agustin Tammone
 
 - Mi nombre es Agustín Tammone y vivo en Cipolletti, Rio Negro, Argentina a tan solo 8 kilómetros de Neuquén Capital. Tengo 30 años, soy Técnico Electromecánico y actualmente me encuentro trabajando en la industria Oil&Gas en una empresa de Neuquén. A su vez, decidí comenzar el curso en Digital House de Programacion Web Full Stack ya que siempre estuve interesado en este rubro, habiendo incursionado durante la secundaria y parte de mi pasar por la universidad, donde estudié hasta 4to año de ingeniería electrónica. En mi pasar por la UNCO, pude aprender sobre lenguajes como FPGA y C para microchips. Ahora, estoy enfocado en el futuro y ese futuro es indispensable que cuente con conocimientos de programación.  
+
+### Hernando Parra
+
+- Mi nombre es Hernando Parra Zapata soy de Pereira, Colombia, tengo 38 años, soy ingeniero industrial tengo una especialización en finanzas, actualmente tengo una empresa de reparación de herramientas industriales y venta de herramientas, ingrese al curso de Digital House porque siempre he tenido curiosidad por el desarrollo y quiero hacer un cambio de carrera, no tengo experiencia ni conocimientos previos en desarrollo, pero tengo toda la disposición y las ganas de aprender.
+
+
   #Fede
   #Hernando
   #Pablo
