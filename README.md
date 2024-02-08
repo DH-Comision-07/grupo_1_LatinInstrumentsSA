@@ -40,6 +40,8 @@ Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender 
 
 #Ezequiel
 
+Mi nombre es Ezequiel Paz, tengo 34 años, vivo en Buenos Aires, Argentina. Soy Emprendedor y apasionado por las nuevas tecnologías. Trabajo en mi propio emprendimiento, como co-founder de Pulqui Marketplace, una tienda en línea especializada en productos de Seguridad Industrial. Como hobby me dedico tocar el bajo y la guitarra. Realice un curso de Data Analitics en Digital House, y me anote en este curso para seguir ampliando conocimientos.
+
 ### Rodrigo Zaldivar
 
 - Me llamo Rodrigo Zaldivar Pichardo, resido en Mexico en una ciudad llamada Toluca a unos 50 minutos de la capital (CDMX). Tengo 24 años y me dedico a estudiar Ing. en Sistemas, a la par de esto y el curso en Digital House me dedico a trabajar en una consultora de desarrollo web llamada Teracom.mx, me gusta mucho hacer ejercicio y me interesa mucho el mundo de la programación. Me interesé en este curso porque me gustaría encontrar un mejor trabajo y además serguir puliendo los conocimientos que ya poseo. 👍
