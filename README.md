@@ -40,7 +40,7 @@ Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender 
 
 ### Ezequiel
 
-Mi nombre es Ezequiel Paz, tengo 34 años, vivo en Buenos Aires, Argentina. Soy Emprendedor y apasionado por las nuevas tecnologías. Trabajo en mi propio emprendimiento, como co-founder de Pulqui Marketplace, una tienda en línea especializada en productos de Seguridad Industrial. Como hobby me dedico tocar el bajo y la guitarra. Realice un curso de Data Analitics en Digital House, y me anote en este curso para seguir ampliando conocimientos.
+- Mi nombre es Ezequiel Paz, tengo 34 años, vivo en Buenos Aires, Argentina. Soy Emprendedor y apasionado por las nuevas tecnologías. Trabajo en mi propio emprendimiento, como co-founder de Pulqui Marketplace, una tienda en línea especializada en productos de Seguridad Industrial. Como hobby me dedico tocar el bajo y la guitarra. Realice un curso de Data Analitics en Digital House, y me anote en este curso para seguir ampliando conocimientos.
 
 ### Rodrigo Zaldivar
 
@@ -55,7 +55,7 @@ Mi nombre es Ezequiel Paz, tengo 34 años, vivo en Buenos Aires, Argentina. Soy 
 - Mi nombre es Hernando Parra Zapata soy de Pereira, Colombia, tengo 38 años, soy ingeniero industrial tengo una especialización en finanzas, actualmente tengo una empresa de reparación de herramientas industriales y venta de herramientas, ingrese al curso de Digital House porque siempre he tenido curiosidad por el desarrollo y quiero hacer un cambio de carrera, no tengo experiencia ni conocimientos previos en desarrollo, pero tengo toda la disposición y las ganas de aprender.
 
 
-  ### Federico Naccarato
+### Federico Naccarato
   
 - Mi nombre es Federico Naccarato tengo 33 años , soy de la ciudad de la plata , buenos aires, argentina. Estoy estudiando programacion porque necesito y quiero cambiar de trabajo. Ademas me gusta el trabajo en equipo y el home ofice me ayuda mucho para realizar las tereas diarias. Mi pasion es la tecnologia, sigo casi todos los eventos que se van dando y trato de estar lo mas informado posible. Me gusta hacer deporte como trotar, futbol , gimnasio,etc. Trabajo de administrativo en una distribuidora de revistas, la cual es un desafio poder digitalizarla y cambiar la estructura del negocio. 
 
