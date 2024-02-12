@@ -38,6 +38,7 @@ Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender 
 
 ## **Equipo 📝**
 
+
 ### Ezequiel Paz
 
 - Mi nombre es Ezequiel Paz, tengo 34 años, vivo en Buenos Aires, Argentina. Soy Emprendedor y apasionado por las nuevas tecnologías. Trabajo en mi propio emprendimiento, como co-founder de Pulqui Marketplace, una tienda en línea especializada en productos de Seguridad Industrial. Como hobby me dedico tocar el bajo y la guitarra. Realice un curso de Data Analitics en Digital House, y me anote en este curso para seguir ampliando conocimientos.
@@ -63,6 +64,7 @@ Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender 
 ### Pablo Estupiñan Muñoz
 
 - Mi nombre es Pablo Estupiñan Muñoz, actualmente vivo en Bogotá D.C., soy Ingeniero Civil y decidí estudiar con Dígital House porque quiero descubrir este mundo dígital que está en auge y que hasta ahora es totalmente desconocido para mi. Tengo mucha espectativa y muchas ganas de aprender.
+
 
   #Soledad
   #Rodrigo
