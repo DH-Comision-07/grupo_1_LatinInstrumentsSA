@@ -70,5 +70,6 @@ Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender 
 - Soy rodrigo Gonzalez, tengo 29 años. vivo en Buenos Aires Argentina. Mi ocupación actual es de conductor. hace 6 meses descubrí la programacion por un video de YouTube y descubri que era a lo que me gustaria dedicarme. Como hobby juego video juegos de tipo shooter y todo la guitarra.
 
 
+  ### Soledad Zambrano
 
-  #Soledad
+- Mi nombre es Soledad Zambrano soy de Jujuy, provincia ubicada al norte de Argentina.Actualmente estudio programación en el curso full stack de Digital House.Mi hobbie es andar en bicicleta, tambien me gusta leer y pasar tiempo con mi familia.
