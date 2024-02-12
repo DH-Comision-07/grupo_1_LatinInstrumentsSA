@@ -65,6 +65,10 @@ Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender 
 
 - Mi nombre es Pablo Estupiñan Muñoz, actualmente vivo en Bogotá D.C., soy Ingeniero Civil y decidí estudiar con Dígital House porque quiero descubrir este mundo dígital que está en auge y que hasta ahora es totalmente desconocido para mi. Tengo mucha espectativa y muchas ganas de aprender.
 
+  ### Rodrigo Iván Gonzalez
+
+- Soy rodrigo Gonzalez, tengo 29 años. vivo en Buenos Aires Argentina. Mi ocupación actual es de conductor. hace 6 meses descubrí la programacion por un video de YouTube y descubri que era a lo que me gustaria dedicarme. Como hobby juego video juegos de tipo shooter y todo la guitarra.
+
+
 
   #Soledad
-  #Rodrigo
