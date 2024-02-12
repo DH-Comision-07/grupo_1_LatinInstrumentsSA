@@ -2,7 +2,7 @@
 
 ## **Temática del Sitio 🌐**
 
-Bienvenido a LatinInstruments, tu destino en línea para encontrar una amplia variedad de instrumentos musicales de alta calidad con un toque. En LatinInstruments, nos apasiona proporcionar a músicos de todos los niveles las herramientas necesarias para expresar su creatividad a través de la música. Nuestra tienda en línea ofrece una selección cuidadosamente curada de instrumentos que reflejan la riqueza y diversidad de la música.
+Bienvenido a LatinInstruments, tu destino en línea para encontrar una amplia variedad de instrumentos musicales de alta calidad. En LatinInstruments, nos apasiona proporcionar a músicos de todos los niveles las herramientas necesarias para expresar su creatividad a través de la música. Nuestra tienda en línea ofrece una selección cuidadosamente curada de instrumentos que reflejan la riqueza y diversidad de la música.
 
 ### **Público Objetivo 📌**
 
@@ -38,7 +38,8 @@ Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender 
 
 ## **Equipo 📝**
 
-### Ezequiel
+
+### Ezequiel Paz
 
 - Mi nombre es Ezequiel Paz, tengo 34 años, vivo en Buenos Aires, Argentina. Soy Emprendedor y apasionado por las nuevas tecnologías. Trabajo en mi propio emprendimiento, como co-founder de Pulqui Marketplace, una tienda en línea especializada en productos de Seguridad Industrial. Como hobby me dedico tocar el bajo y la guitarra. Realice un curso de Data Analitics en Digital House, y me anote en este curso para seguir ampliando conocimientos.
 
@@ -60,7 +61,10 @@ Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender 
 - Mi nombre es Federico Naccarato tengo 33 años , soy de la ciudad de la plata , buenos aires, argentina. Estoy estudiando programacion porque necesito y quiero cambiar de trabajo. Ademas me gusta el trabajo en equipo y el home ofice me ayuda mucho para realizar las tereas diarias. Mi pasion es la tecnologia, sigo casi todos los eventos que se van dando y trato de estar lo mas informado posible. Me gusta hacer deporte como trotar, futbol , gimnasio,etc. Trabajo de administrativo en una distribuidora de revistas, la cual es un desafio poder digitalizarla y cambiar la estructura del negocio. 
 
 
-  #Hernando
-  #Pablo
+### Pablo Estupiñan Muñoz
+
+- Mi nombre es Pablo Estupiñan Muñoz, actualmente vivo en Bogotá D.C., soy Ingeniero Civil y decidí estudiar con Dígital House porque quiero descubrir este mundo dígital que está en auge y que hasta ahora es totalmente desconocido para mi. Tengo mucha espectativa y muchas ganas de aprender.
+
+
   #Soledad
   #Rodrigo
