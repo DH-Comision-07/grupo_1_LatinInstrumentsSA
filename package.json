@@ -1,0 +1,15 @@
+{
+  "name": "grupo_1_latininstrumentssa",
+  "version": "1.0.0",
+  "description": "Bienvenido a LatinInstruments, tu destino en línea para encontrar una amplia variedad de instrumentos musicales de alta calidad. En LatinInstruments, nos apasiona proporcionar a músicos de todos los niveles las herramientas necesarias para expresar su creatividad a través de la música. Nuestra tienda en línea ofrece una selección cuidadosamente curada de instrumentos que reflejan la riqueza y diversidad de la música.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
