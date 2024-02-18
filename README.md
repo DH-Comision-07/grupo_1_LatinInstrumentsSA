@@ -14,6 +14,7 @@ Bienvenido a LatinInstruments, tu destino en línea para encontrar una amplia va
 
 A continuación, se presenta una lista de al menos 5 referentes en el ámbito de tiendas en línea de instrumentos musicales y sitios relacionados que inspiran la visión de LatinInstruments:
 
+
 1. Ortizo - https://ortizo.com.co/
 
 - Un mundo de guitarras con un buen diseño
@@ -35,6 +36,7 @@ A continuación, se presenta una lista de al menos 5 referentes en el ámbito de
 - Una plataforma en línea que conecta a compradores y vendedores de instrumentos musicales usados y nuevos.
 
 Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender las expectativas y necesidades de nuestros clientes en el mercado de instrumentos musicales.
+
 
 ## **Equipo 📝**
 
