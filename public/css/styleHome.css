@@ -1,0 +1,24 @@
+:root {
+  --naranjaOscuro: #cb997e;
+  --naranja: #ddbea9
+  --naranjaClaro: #ffe8c6
+  --verdeClaro: #b7b7a4;
+  --verde: #a5a58d;
+  --verdeOscuro: #6b705c;
+  --blanco: #fff;
+  --negro: #000
+	--fuentePrincipal: "Open Sans", cursive;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+	box-sizing: inherit;
+}
