@@ -22,5 +22,10 @@ app.post("/registro", (req, res) => {
     res.send("Felicidades te registraste con exito")
 });
 
+app.get("/login",(req, res) =>{
+    res.sendFile(path.resolve("./views/login.html"))
+})
 
-
+app.post("/login", (req, res)=> {
+    res.send("Bienvenido")
+})
