@@ -12,4 +12,15 @@ app.listen(3131, () => {
 
 app.get("/", (req, res) => {
     res.sendFile(path.resolve("./views/home.html"))
-})
+});
+
+app.get("/registro", (req, res) => {
+    res.sendFile(path.resolve("./views/registro.html"))
+});
+
+app.post("/registro", (req, res) => {
+    res.send("Felicidades te registraste con exito")
+});
+
+
+
