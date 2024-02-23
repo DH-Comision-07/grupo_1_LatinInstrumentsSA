@@ -593,11 +593,21 @@ div.todos__vinilos {
 	display: grid;
 	column-gap: 6.4rem;
 	row-gap: 9.6rem;
-
-	/* margin-bottom: 9.6rem; */
 }
+
 .grid--3-cols {
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: 1fr;
+}
+
+@media (min-width: 544px) {
+	.grid--3-cols {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (min-width: 992px) {
+	.grid--3-cols {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 
 .subtitulo {
