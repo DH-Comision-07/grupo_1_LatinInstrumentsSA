@@ -341,120 +341,104 @@ nav input {
 	padding-top: 10rem;
 }
 
-section header {
-	width: 95%;
-	display: flex;
-	justify-content: flex-end;
-	flex-flow: row wrap;
-}
-header ul {
-	padding: 1.2em 0 0.5em;
-}
-header span {
-	font-size: 2rem;
-	font-weight: bolder;
-	padding-bottom: 2rem;
-	color: var(--gris);
+.promos__contenedor {
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
-.contenedor {
-	width: 100%;
-	justify-content: flex-start;
-	display: flex;
-	flex-flow: row wrap;
+h1 {
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
 }
 
-.promo__cinco,
-.promo__cuatro,
-.promo__tres,
-.promo__dos,
-.promo__uno {
-	box-shadow: 1px 5px 15px #ccc;
-	width: 15em;
+.promo__imagen img {
 	height: auto;
-	border-radius: 3px;
-	padding: 2em;
-	margin: 1em;
-	overflow: hidden;
-	position: relative;
-	flex: auto;
-}
-.promo__uno {
-	background: linear-gradient(30deg, var(--naranjaOscuro) 70%, rgba(255, 255, 255, 0.5) 30%);
-}
-.promo__dos {
-	background: linear-gradient(30deg, var(--naranjaOscuro) 70%, rgba(255, 255, 255, 0.5) 30%);
-}
-.promo__tres {
-	background: linear-gradient(30deg, var(--naranjaOscuro) 70%, rgba(255, 255, 255, 0.5) 30%);
-}
-.promo__cuatro {
-	background: linear-gradient(30deg, var(--naranjaOscuro) 70%, rgba(255, 255, 255, 0.5) 30%);
-}
-.promo__cinco {
-	background: linear-gradient(30deg, var(--naranjaOscuro) 70%, rgba(255, 255, 255, 0.5) 30%);
-}
-
-.promo__uno img,
-.promo__dos img,
-.promo__tres img,
-.promo__cuatro img,
-.promo__cinco img {
 	max-width: 100%;
-	height: auto !important;
-	text-align: center;
-}
-.promo {
-	display: flex;
-	align-items: center;
-	flex-flow: column wrap;
-}
-.promo p {
-	color: var(--blanco);
-	font-size: 1.4rem;
-	font-weight: bold;
-	text-align: center;
-}
-.promo button {
-	border: 0.2rem solid rgba(255, 255, 255, 0.5);
-	color: var(--blanco);
-	border-radius: 5px;
-	padding: 1rem 3rem;
-	margin: 1rem 0 0 0;
-	font-size: 1.4rem;
-	text-align: center;
-	background: none;
-	cursor: pointer;
-	transition: background ease-in 0.25s;
-}
-.promo button:hover {
-	background: var(--blanco);
-	color: #2b2d42;
+	vertical-align: middle;
 }
 
-.producto_overlay {
-	background: rgba(255, 255, 255, 0.9);
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	transform: translateY(-500px);
-	opacity: 0;
+.boton {
 	display: flex;
-	flex-flow: column wrap;
 	justify-content: center;
-	align-items: center;
 }
-.producto_overlay h2 {
-	color: rgba(43, 45, 66, 0.7);
-	font-size: 2rem;
-	margin: 1em 0;
+
+.btn {
+	color: var(--negro);
+	text-decoration: none;
+	padding: 1rem;
+	font-size: 14px;
+	text-transform: uppercase;
+	border-radius: 4px;
+	font-weight: 600;
+	text-align: center;
+	cursor: pointer;
+	background: var(--naranja);
 }
-.producto_overlay i {
-	color: rgba(43, 45, 66, 0.7);
-	font-size: 1.5em;
+
+.btn:hover {
+	background-color: rgba(255, 255, 255, 0.12);
+}
+
+.promos__lista {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.promo__contenedor {
+	display: flex;
+	padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+	.promo__contenedor {
+		width: 50%;
+	}
+}
+
+@media (min-width: 56rem) {
+	.promo__contenedor {
+		width: 33.3333%;
+	}
+}
+
+.promo {
+	background: linear-gradient(to bottom left, var(--naranjaClaro) 40%, var(--naranjaOscuro) 100%);
+	border-radius: 1.1rem;
+	box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	transition: all 0.4s;
+}
+
+.promo:hover {
+	transform: translateY(-1.2rem);
+	box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.promo__contenido {
+	padding: 1rem;
+}
+
+.promo__titulo {
+	color: var(--negro);
+	font-size: 2.2rem;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	margin: 0px;
+}
+
+.promo__texto {
+	color: var(--negro);
+	font-size: 1.4rem;
+	line-height: 1.5;
+	margin-bottom: 1.25rem;
+	font-weight: 500;
 }
 
 /* BRANDS */
@@ -543,6 +527,7 @@ section.marcas {
 
 .vinilo-contenido {
 	padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+	background: linear-gradient(to bottom left, var(--naranjaClaro) 40%, var(--naranjaOscuro) 100%);
 }
 
 .vinilo-tags {
@@ -644,7 +629,7 @@ div.todos__vinilos {
 .lista__icono {
 	width: 3rem;
 	height: 3rem;
-	color: #e67e22;
+	color: var(--naranjaOscuro);
 }
 
 li span {
