@@ -14,18 +14,18 @@ app.get("/", (req, res) => {
     res.sendFile(path.resolve("./views/home.html"))
 });
 
-app.get("/registro", (req, res) => {
+app.get("/registro.html", (req, res) => {
     res.sendFile(path.resolve("./views/registro.html"))
 });
 
-app.post("/registro", (req, res) => {
-    res.send("Felicidades te registraste con exito")
+app.post("/registro.html", (req, res) => {
+    res.sendFile(path.resolve("./views/registro.html"))
 });
 
-app.get("/login",(req, res) =>{
+app.get("/login.html",(req, res) =>{
     res.sendFile(path.resolve("./views/login.html"))
 })
 
-app.post("/login", (req, res)=> {
-    res.send("Bienvenido")
+app.post("/login.html", (req, res)=> {
+    res.sendFile("./views/login.html")
 })
