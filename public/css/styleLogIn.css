@@ -4,3 +4,76 @@
     box-sizing: border-box;
 }
 
+:root {
+	--naranjaOscuro: #cb997e;
+	--naranja: #ddbea9;
+	--naranjaClaro: #ffe8c6;
+	--verdeClaro: #b7b7a4;
+	--verde: #a5a58d;
+	--verdeOscuro: #6b705c;
+	--blanco: #ffffff;
+	--negro: #000;
+	--gris: #666;
+	--fuentePrincipal: "Open Sans", sans-serif;
+}
+
+body {
+	background-color: var(--naranjaClaro);
+}
+
+header{
+    background-color: var(--verdeClaro);
+    height: 4rem;
+    width: 100vw;
+}
+
+.logo a {
+	color: var(--blanco);
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.container-form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--naranjaOscuro);
+    margin: 50px 30px;
+
+}
+
+.form{
+    min-width: 400px;
+    padding: 30px;
+    flex: 1;
+    text-align: center;
+}
+
+.form-section{
+    width: 100%;
+}
+
+.form-input{
+padding: 7px;
+margin: 9px 0px;
+background-color: var(--naranja);
+border: none;
+border-bottom: 3px solid var(--verdeOscuro);
+color: var(--verdeOscuro);
+}
+
+.form-input:focus{
+    background-color: var(--naranjaClaro);
+}
+
+.form input[type="submit"]{
+    background-color: var(--verde);
+    transition: 450ms;
+
+}
+
+.form input[type="submit"]:hover{
+    background-color: var(--verdeClaro);
+    padding: 12px;
+}
