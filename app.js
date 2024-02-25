@@ -18,6 +18,10 @@ app.get("/registro", (req, res) => {
     res.sendFile(path.resolve("./views/registro.html"))
 });
 
+app.get("/carrito", (req, res) => {
+    res.sendFile(path.resolve("./views/carrito.html"))
+});
+
 app.post("/registro", (req, res) => {
     res.send("Felicidades te registraste con exito")
 });
