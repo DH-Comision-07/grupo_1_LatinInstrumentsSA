@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+	--naranjaOscuro: #cb997e;
+	--naranja: #ddbea9;
+	--naranjaClaro: #ffe8c6;
+	--verdeClaro: #b7b7a4;
+	--verde: #a5a58d;
+	--verdeOscuro: #6b705c;
+	--blanco: #ffffff;
+	--negro: #000;
+	--gris: #666;
+	--fuentePrincipal: "Open Sans", sans-serif;
+}
+
+.barra_navegacion {
+    background-color: var(--verdeClaro);
+    width: 100vw;
+    height: 96px;
+}
+
+.barra_navegacion h1 {
+    color: var(--blanco);
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    background-color: var(--naranja);
+}
+
+.contenedor_imagen {
+
+    width: 100vw;
+
+}
+
+.imagen_producto {
+    border: solid 1px var(--verdeOscuro);
+    width: 90%;
+    height: 500px;
+    margin: 5%;
+}
+
+.contenedor_detalle_producto {
+    padding: 0% 5% 5%;
+    text-align: center;
+}
+
+.nombre_grande_producto {    
+    text-transform: uppercase;
+}
+
+.cantidad button {
+    background-color: var(--blanco);
+    border: solid 0.5px var(--verdeOscuro);
+    font-size: 15px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+}
+
+.cantidad input {
+    border: solid 0.5px var(--verdeOscuro);
+    width: 180px;
+    height: 50px;
+}
+
+.botones button {
+    width: 180px;
+    height: 50px;
+}
+
+.anadir {
+    color: var(--blanco);
+    background-color: var(--verdeOscuro);
+    font-weight: bold;
+    width: 180px;
+    height: 50px;
+}
+
+.seguir {
+    color: var(--blanco);
+    background-color: var(--verdeOscuro);
+    font-weight: bold;
+    width: 180px;
+    height: 50px;
+}
+
+.contenedor_detalle_producto p {
+    text-align: justify;
+}
+
+.ficha_tecnica {
+    width: 50%;
+    margin: auto;
+    border: solid 1px var(--verdeOscuro);
+}
+
+
+.ficha_tecnica caption {
+    height: 30px;
+    font-weight: bold;
+}
+
+.ficha_tecnica tr td{
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border: dotted 1px var(--verdeOscuro);
+}
+
+.footer_nav {
+    background-color: var(--verdeOscuro);
+    width: 100vw;
+    height: 96px;
+}
+
+.footer_nav h1 {
+    color: var(--blanco);
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}
