@@ -129,12 +129,29 @@ body {
     text-align: center;
 }
 
-@media (min-width: 576px) {
-    
-}
+/*@media (min-width: 576px) {    
+}*/
 
-@media (min-width: 768px) {
-    
+@media (min-width: 769px) {
+    .contenedor_general {
+        display: flex;
+    }
+
+    .contenedor_imagen {
+        width: 50%;
+        
+    }
+
+    .imagen_producto {
+        width: 40%;
+        position: fixed;
+    }
+
+    .contenedor_detalle_producto {
+        width: 50%;
+    }
+
+
 }
 
 @media (min-width: 1024px) {
