@@ -1,0 +1,141 @@
+:root {
+	--naranjaOscuro: #cb997e;
+	--naranja: #ddbea9;
+	--naranjaClaro: #ffe8d6;
+	--verdeClaro: #b7b7a4;
+	--verde: #a5a58d;
+	--verdeOscuro: #6b705c;
+	--blanco: #ffffff;
+	--negro: #000;
+	--gris: #666;
+	--fuentePrincipal: "Open Sans", sans-serif;
+}
+
+* {
+	font-family: var(--fuentePrincipal), sans-serif;
+}
+body {
+
+	background-color: var(--naranjaClaro);
+    flex-direction: column;
+}
+
+body .body-carrito{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+header{
+    position: relative;
+
+}
+header .nav{
+    position: absolute;
+    top: 0;
+}
+.main-carrito{
+    margin:15vh 0 20vh;
+       height: 80vh;
+}
+.main-seccion-carrito{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+.titulo, .productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.titulo{
+    width: 50%;
+
+}
+.productos{
+    width: 50%;
+
+}
+.item-compra{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 375px;
+    max-height: 498px;
+    background: linear-gradient(to bottom left, var(--naranjaClaro) 40%, var(--naranjaOscuro) 100%);
+    border-radius: 10px;
+    margin: 5%;
+}
+img {
+    width: 75vw;
+    height: 45vh;
+    max-width: 338px;
+    max-height: 385px;
+
+}
+.desc-list{
+    font-size: 10px;
+    list-style: none;
+}
+.agregar-quitar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: var(--naranjaClaro);
+}
+.fa-regular.fa-square-minus,
+.fa-regular.fa-square-plus {
+    border-radius: 5px;
+    color: var(--verdeOscuro);
+    background-color: var(--naranjaOscuro);
+}
+@media (max-width: 1024px) {
+
+    .columnas{
+        display: none;
+    }
+}
+
+
+/* FOOTER */
+
+footer{
+    margin-top: 130vh;
+    bottom: 0;
+    max-height: 2vh;
+}
+.contenedor__footer {
+
+  margin: auto;   
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    footer .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+}
+
+@media (max-width: 767px) {
+    footer .row{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+
