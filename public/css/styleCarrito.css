@@ -1,0 +1,33 @@
+.desc-list{
+    font-size: 20px;
+}
+body .body-carrito{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.main-carrito{
+       
+}
+.main-seccion-carrito{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15vh;
+}
+.titulo, .productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.titulo{
+    width: 50%;
+
+}
+.productos{
+    width: 50%;
+
+}
