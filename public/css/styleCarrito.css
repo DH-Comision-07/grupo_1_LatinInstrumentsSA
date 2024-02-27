@@ -15,7 +15,9 @@
 	font-family: var(--fuentePrincipal), sans-serif;
 }
 body {
+
 	background-color: var(--naranjaClaro);
+    flex-direction: column;
 }
 
 body .body-carrito{
@@ -23,6 +25,7 @@ body .body-carrito{
     width: 100%;
     height: 100%;
     margin: 0;
+
 }
 header{
     position: relative;
@@ -33,7 +36,7 @@ header .nav{
     top: 0;
 }
 .main-carrito{
-    margin:15vh 0 10vh 0;
+    margin:15vh 0 20vh;
        height: 80vh;
 }
 .main-seccion-carrito{
@@ -61,6 +64,8 @@ header .nav{
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 375px;
+    max-height: 498px;
     background: linear-gradient(to bottom left, var(--naranjaClaro) 40%, var(--naranjaOscuro) 100%);
     border-radius: 10px;
     margin: 5%;
@@ -68,6 +73,8 @@ header .nav{
 img {
     width: 75vw;
     height: 45vh;
+    max-width: 338px;
+    max-height: 385px;
 
 }
 .desc-list{
@@ -91,9 +98,44 @@ input{
     color: var(--verdeOscuro);
     background-color: var(--naranjaOscuro);
 }
-@media (max-width: 380px) {
+@media (max-width: 1024px) {
 
     .columnas{
         display: none;
     }
 }
+
+
+/* FOOTER */
+
+footer{
+    margin-top: 130vh;
+    bottom: 0;
+    max-height: 2vh;
+}
+.contenedor__footer {
+
+  margin: auto;   
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    footer .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+}
+
+@media (max-width: 767px) {
+    footer .row{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+
