@@ -26,5 +26,9 @@ app.post("/registro", (req, res) => {
     res.send("Felicidades te registraste con exito")
 });
 
+app.get("/productDetail", (req, res) => {
+    res.sendFile(path.resolve("./views/productDetail.html"))
+});
+
 
 
