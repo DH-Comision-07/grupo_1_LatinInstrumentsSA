@@ -14,7 +14,6 @@ Bienvenido a LatinInstruments, tu destino en línea para encontrar una amplia va
 
 A continuación, se presenta una lista de al menos 5 referentes en el ámbito de tiendas en línea de instrumentos musicales y sitios relacionados que inspiran la visión de LatinInstruments:
 
-
 1. Ortizo - https://ortizo.com.co/
 
 - Un mundo de guitarras con un buen diseño
@@ -37,9 +36,7 @@ A continuación, se presenta una lista de al menos 5 referentes en el ámbito de
 
 Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender las expectativas y necesidades de nuestros clientes en el mercado de instrumentos musicales.
 
-
 ## **Equipo 📝**
-
 
 ### Ezequiel Paz
 
@@ -51,27 +48,26 @@ Estos referentes nos sirven como fuente de inspiración y nos ayudan a entender 
 
 ### Agustin Tammone
 
-- Mi nombre es Agustín Tammone y vivo en Cipolletti, Rio Negro, Argentina a tan solo 8 kilómetros de Neuquén Capital. Tengo 30 años, soy Técnico Electromecánico y actualmente me encuentro trabajando en la industria Oil&Gas en una empresa de Neuquén. A su vez, decidí comenzar el curso en Digital House de Programacion Web Full Stack ya que siempre estuve interesado en este rubro, habiendo incursionado durante la secundaria y parte de mi pasar por la universidad, donde estudié hasta 4to año de ingeniería electrónica. En mi pasar por la UNCO, pude aprender sobre lenguajes como FPGA y C para microchips. Ahora, estoy enfocado en el futuro y ese futuro es indispensable que cuente con conocimientos de programación.  
+- Mi nombre es Agustín Tammone y vivo en Cipolletti, Rio Negro, Argentina a tan solo 8 kilómetros de Neuquén Capital. Tengo 30 años, soy Técnico Electromecánico y actualmente me encuentro trabajando en la industria Oil&Gas en una empresa de Neuquén. A su vez, decidí comenzar el curso en Digital House de Programacion Web Full Stack ya que siempre estuve interesado en este rubro, habiendo incursionado durante la secundaria y parte de mi pasar por la universidad, donde estudié hasta 4to año de ingeniería electrónica. En mi pasar por la UNCO, pude aprender sobre lenguajes como FPGA y C para microchips. Ahora, estoy enfocado en el futuro y ese futuro es indispensable que cuente con conocimientos de programación.
 
 ### Hernando Parra
 
 - Mi nombre es Hernando Parra Zapata soy de Pereira, Colombia, tengo 38 años, soy ingeniero industrial tengo una especialización en finanzas, actualmente tengo una empresa de reparación de herramientas industriales y venta de herramientas, ingrese al curso de Digital House porque siempre he tenido curiosidad por el desarrollo y quiero hacer un cambio de carrera, no tengo experiencia ni conocimientos previos en desarrollo, pero tengo toda la disposición y las ganas de aprender.
 
-
 ### Federico Naccarato
-  
-- Mi nombre es Federico Naccarato tengo 33 años , soy de la ciudad de la plata , buenos aires, argentina. Estoy estudiando programacion porque necesito y quiero cambiar de trabajo. Ademas me gusta el trabajo en equipo y el home ofice me ayuda mucho para realizar las tereas diarias. Mi pasion es la tecnologia, sigo casi todos los eventos que se van dando y trato de estar lo mas informado posible. Me gusta hacer deporte como trotar, futbol , gimnasio,etc. Trabajo de administrativo en una distribuidora de revistas, la cual es un desafio poder digitalizarla y cambiar la estructura del negocio. 
 
+- Mi nombre es Federico Naccarato tengo 33 años , soy de la ciudad de la plata , buenos aires, argentina. Estoy estudiando programacion porque necesito y quiero cambiar de trabajo. Ademas me gusta el trabajo en equipo y el home ofice me ayuda mucho para realizar las tereas diarias. Mi pasion es la tecnologia, sigo casi todos los eventos que se van dando y trato de estar lo mas informado posible. Me gusta hacer deporte como trotar, futbol , gimnasio,etc. Trabajo de administrativo en una distribuidora de revistas, la cual es un desafio poder digitalizarla y cambiar la estructura del negocio.
 
 ### Pablo Estupiñan Muñoz
 
 - Mi nombre es Pablo Estupiñan Muñoz, actualmente vivo en Bogotá D.C., soy Ingeniero Civil y decidí estudiar con Dígital House porque quiero descubrir este mundo dígital que está en auge y que hasta ahora es totalmente desconocido para mi. Tengo mucha espectativa y muchas ganas de aprender.
 
-  ### Rodrigo Iván Gonzalez
+### Rodrigo Iván Gonzalez
 
 - Soy rodrigo Gonzalez, tengo 29 años. vivo en Buenos Aires Argentina. Mi ocupación actual es de conductor. hace 6 meses descubrí la programacion por un video de YouTube y descubri que era a lo que me gustaria dedicarme. Como hobby juego video juegos de tipo shooter y todo la guitarra.
 
-
-  ### Soledad Zambrano
+### Soledad Zambrano
 
 - Mi nombre es Soledad Zambrano soy de Jujuy, provincia ubicada al norte de Argentina.Actualmente estudio programación en el curso full stack de Digital House.Mi hobbie es andar en bicicleta, tambien me gusta leer y pasar tiempo con mi familia.
+
+[Nuestro trello](https://trello.com/b/k8xHNGir/dh-comision-07-grupo1latininstrumentssa)
