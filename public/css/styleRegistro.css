@@ -4,7 +4,7 @@
     padding: 20px;
     background-color: #ddbea9;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 50px rgba(255, 149, 0, 0.6);
 }
 
 .form-label {
@@ -23,7 +23,7 @@
 }
 
 .form-button {
-    display: block;
+    display: block; 
     width: 100%;
     padding: 10px;
     background-color: #CB997E;
@@ -31,11 +31,22 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.5s;
 }
 
 .form-button:hover {
-    background-color: #815d41;
+    background-color: #a47050;
+    color: #151413;
+    border: 2px solid #6D5445;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+
+.form-button:hover::after {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 10px;
 }
 
 *{
