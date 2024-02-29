@@ -9,20 +9,27 @@
 
 </head>
 <body>
-    <form action="/registro" method="POST" class="registro-form">
+    <form action="registro" method="POST" class="registro-form">
         <label for="nombre" class="form-label">Nombre:</label>
         <input type="text" id="nombre" name="nombre" class="form-input" required>
         <br>
+
         <label for="email" class="form-label">Email:</label>
         <input type="email" id="email" name="email" class="form-input" required>
         <br>
+
         <label for="contraseña" class="form-label">Contraseña:</label>
         <input type="password" id="contraseña" name="contraseña" class="form-input" required>
         <br>
+
         <label for="repite-contraseña" class="form-label">Repite Contraseña:</label>
         <input type="password" id="repite-contraseña" name="repite-contraseña" class="form-input" required>
         <br>
+
         <button type="submit" class="form-button">Registrarse</button>
+        <br>
+        
+        <a href="/"> <button type="button" class="form-button" id="volver-button" > Volver </button> </a>
     </form>
 </body>
 </html>
