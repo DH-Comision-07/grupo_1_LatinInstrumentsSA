@@ -45,19 +45,17 @@
     background-color: #FFE8D6;
 }
 
-@media (max-width: 767px) { /* Smartphones y tablets en modo vertical */
-    .registro-form {
+@media (max-width: 767px) { 
         max-width: 90%;
     }
-}
 
-@media (min-width: 768px) and (max-width: 1023px) { /* Tablets en modo horizontal */
-    .registro-form {
+
+@media (min-width: 768px) and (max-width: 1023px) { 
         max-width: 70%;
     }
-}
 
-@media (min-width: 1024px) { /* Desktops y tablets en modo horizontal */
+
+@media (min-width: 1024px) { 
     .registro-form {
         max-width: 50%;
     }
