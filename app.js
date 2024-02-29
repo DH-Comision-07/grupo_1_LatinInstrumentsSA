@@ -29,7 +29,7 @@ app.get("/login",(req, res) =>{
 })
 
 app.post("/login", (req, res)=> {
-    res.sendFile("./views/login.html")
+    res.sendFile(path.resolve("./views/home.html"))
 })
 
 app.get("/carrito", (req, res) => {
