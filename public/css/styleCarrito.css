@@ -35,6 +35,10 @@ header .nav{
     position: absolute;
     top: 0;
 }
+h1{
+
+	text-align: center;
+}
 
 .main-seccion-carrito{
     display: flex;
