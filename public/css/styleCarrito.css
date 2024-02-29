@@ -106,10 +106,10 @@ main .productos{
 	align-items: center;
 	
 }
-.item-imagen{
+/* .item-imagen{
 	max-width: 150px;
 	max-height: 150px;
-}
+} */
 img {
     width: 80%;
     height: 100%;
@@ -168,8 +168,8 @@ input{
         display: flex;
         align-items: center;
         flex-direction: column;
-		width: 80%;
-		max-width: 245px;
+		width: 70%;
+		/* max-width: 245px; */
 	}
 
 	.main-carrito .main-seccion-carrito .productos img{
