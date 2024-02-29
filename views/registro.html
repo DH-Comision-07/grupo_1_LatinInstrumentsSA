@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Registro</title>
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
-
+    <link rel="stylesheet" href="/css/styleRegistro.css">
 </head>
 <body>
-<form action="/registro" metthod="POST">
-    <label for="nombre"> Nombre: </label>
-    <input type="text" id="nombre" name="nombre">
-    <br>
-    <label for="email"> Email: </label>
-    <input type="text" id="email" name="email">
-    <br>
-    <label for="contrasenia"> Constraseña: </label>
-    <input type="text" id="constrasenia" name="constrasenia">
-    <br>
-    <label for="repite-contrasenia"> Constraseña: </label>
-    <input type="text" id="repite-constrasenia" name="repite-constrasenia">
-</form>
-<button> Registrarse </button>
+    <form action="/registro" method="POST" class="registro-form">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" class="form-input" required>
+        <br>
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" id="email" name="email" class="form-input" required>
+        <br>
+        <label for="contraseña" class="form-label">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" class="form-input" required>
+        <br>
+        <label for="repite-contraseña" class="form-label">Repite Contraseña:</label>
+        <input type="password" id="repite-contraseña" name="repite-contraseña" class="form-input" required>
+        <br>
+        <button type="submit" class="form-button">Registrarse</button>
+    </form>
 </body>
 </html>
+
