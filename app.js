@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
     res.sendFile(path.resolve("./views/home.html"))
 });
 
-app.get("/registro.html", (req, res) => {
+app.get("/registro", (req, res) => {
     res.sendFile(path.resolve("./views/registro.html"))
 });
 
@@ -25,6 +25,10 @@ app.post("/registro", (req, res) => {
 
 app.get("/login",(req, res) =>{
     res.sendFile(path.resolve("./views/login.html"))
+})
+
+app.post("/login", (req, res)=> {
+    res.sendFile("./views/login.html")
 })
 
 app.get("/carrito", (req, res) => {
@@ -38,6 +42,4 @@ app.get("/productDetail", (req, res) => {
 
 
 
-app.post("/login.html", (req, res)=> {
-    res.sendFile("./views/login.html")
-})
+
