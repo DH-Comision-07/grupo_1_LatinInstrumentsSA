@@ -2,7 +2,7 @@
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #ddbea9;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -11,9 +11,7 @@
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-    background-color: #f4f4f4
-    
-    
+    background-color: #ddbea9  
 }
 
 .form-input {
@@ -21,8 +19,7 @@
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    
+    border-radius: 5px;   
 }
 
 .form-button {
@@ -45,17 +42,19 @@
     background-color: #FFE8D6;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
+    .registro-form {
         max-width: 90%;
     }
+}
 
-
-@media (min-width: 768px) and (max-width: 1023px) { 
+@media (min-width: 768px) {
+    .registro-form {
         max-width: 70%;
     }
+}
 
-
-@media (min-width: 1024px) { 
+@media (min-width: 1024px) {
     .registro-form {
         max-width: 50%;
     }
