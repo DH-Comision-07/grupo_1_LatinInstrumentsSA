@@ -17,7 +17,7 @@
 body {
     margin: 0;
 	background-color: var(--naranjaClaro);
-
+    
 }
 
 body .body-carrito{
@@ -56,6 +56,7 @@ header .nav{
 	padding: 0;
 	}	
     .main-carrito{
+
 		height: 100vh;
 	}
 	main .productos{
@@ -81,9 +82,7 @@ header .nav{
 	margin: 8%;
 
 }
-.productos{
-	/* position: relative; */
-} 
+
 .titulo, .productos {
     display: flex;
     flex-direction: column;
@@ -217,12 +216,16 @@ input{
 .btn-continuar,
 .btn-fin {
     background-color: var(--naranjaClaro);
-    color: var(--verdeOscuro);
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 0 10px;
     transition: background-color 0.3s, color 0.3s; 
+}
+
+.btn-continuar a, .btn-fin a{
+	text-decoration: none;
+	color: var(--verdeOscuro);
 }
 
 .btn-continuar:hover,
@@ -319,3 +322,4 @@ footer {
        
 }
 }
+
