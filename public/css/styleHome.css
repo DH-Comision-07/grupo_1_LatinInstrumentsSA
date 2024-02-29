@@ -343,7 +343,7 @@ nav input {
 
 .promos__contenedor {
 	max-width: 1200px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 
 h1 {
@@ -391,6 +391,7 @@ h1 {
 .promo__contenedor {
 	display: flex;
 	padding: 1rem;
+	margin:auto
 }
 
 @media (min-width: 40rem) {
