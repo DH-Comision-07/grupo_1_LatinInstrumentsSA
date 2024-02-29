@@ -1,0 +1,248 @@
+:root {
+	--naranjaOscuro: #cb997e;
+	--naranja: #ddbea9;
+	--naranjaClaro: #ffe8d6;
+	--verdeClaro: #b7b7a4;
+	--verde: #a5a58d;
+	--verdeOscuro: #6b705c;
+	--blanco: #ffffff;
+	--negro: #000;
+	--gris: #666;
+	--fuentePrincipal: "Open Sans", sans-serif;
+}
+
+* {
+	font-family: var(--fuentePrincipal), sans-serif;
+}
+body {
+    margin: 0;
+	background-color: var(--naranjaClaro);
+
+}
+
+body .body-carrito{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+header{
+    position: relative;
+
+}
+header .nav{
+    position: absolute;
+    top: 0;
+}
+.main-carrito{
+       margin:15vh 0 5vh;    
+}
+.main-seccion-carrito{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* PRODUCTOS */
+.titulo, .productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.titulo{
+    width: 50%;
+
+}
+.productos{
+    width: 50%;
+
+}
+.item-compra{
+    background: linear-gradient(to bottom left, var(--naranjaClaro) 40%, var(--naranjaOscuro) 100%);
+    border-radius: 10px;
+    margin: 5%;
+}
+img {
+    width: 75vw;
+    height: 45vh;
+    max-width: 338px;
+    max-height: 385px;
+
+}
+.desc-list{
+    font-size: 10px;
+    list-style: none;
+}
+.agregar-quitar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: var(--naranjaClaro);
+}
+.fa-regular.fa-square-minus,
+.fa-regular.fa-square-plus {
+    border-radius: 5px;
+    color: var(--verdeOscuro);
+    background-color: var(--naranjaOscuro);
+}
+
+.descripcion, .cantidad, .precio-parcial{
+    margin: 5px;
+}
+
+@media (max-width: 1024px) {
+
+    .columnas{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    .item-compra{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (min-width: 768px){
+.item-compra{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+}
+
+/* RESUMEN */
+
+.resumen-orden{
+    display: flex;
+	flex-direction: column;
+	border-radius: 10PX;
+	background-color: var(--verdeClaro);
+	padding: 10px;
+	box-shadow: 0 0 10px;
+}
+.subtotal, .costo-envio, .total-pagar{
+	padding: 10px;
+	color: white;
+}
+.total-pagar{
+	margin-bottom: 15px;
+}
+.btns-resumen{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.btn-continuar{
+	background-color: var(--naranjaClaro);
+	color: var(--verdeOscuro);
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px;
+}
+.btn-fin{
+	background-color: var(--naranjaClaro);
+	color: var(--verdeOscuro);
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px;
+}
+/* FOOTER */
+
+.contenedor__footer {
+	max-width: 1170px;
+	margin: auto;
+}
+.row {
+	display: flex;
+}
+ul {
+	list-style: none;
+}
+footer {
+	background-color: var(--verdeOscuro);
+	padding: 70px 0;
+}
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+}
+.footer-col h4 {
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 900;
+	position: relative;
+}
+.footer-col h4::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 600;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 574px) {
+	.footer-col {
+		width: 100%;
+	}
+}
+@media (max-width: 767px) {
+    footer .row{
+        display: flex;
+        flex-direction: column;
+       
+}
+}

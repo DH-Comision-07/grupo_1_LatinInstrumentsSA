@@ -18,13 +18,25 @@ app.get("/registro.html", (req, res) => {
     res.sendFile(path.resolve("./views/registro.html"))
 });
 
-app.post("/registro.html", (req, res) => {
+
+app.post("/registro", (req, res) => {
     res.sendFile(path.resolve("./views/registro.html"))
 });
 
-app.get("/login.html",(req, res) =>{
+app.get("/login",(req, res) =>{
     res.sendFile(path.resolve("./views/login.html"))
 })
+
+app.get("/carrito", (req, res) => {
+    res.sendFile(path.resolve("./views/carrito.html"))
+});
+
+
+app.get("/productDetail", (req, res) => {
+    res.sendFile(path.resolve("./views/productDetail.html"))
+});
+
+
 
 app.post("/login.html", (req, res)=> {
     res.sendFile("./views/login.html")
