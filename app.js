@@ -20,8 +20,9 @@ app.get("/registro", (req, res) => {
 
 
 app.post("/registro", (req, res) => {
-    res.sendFile(path.resolve("./views/registro.html"))
+    res.sendFile(path.resolve("./views/home.html"))
 });
+
 
 app.get("/login",(req, res) =>{
     res.sendFile(path.resolve("./views/login.html"))
