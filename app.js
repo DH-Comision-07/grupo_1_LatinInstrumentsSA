@@ -14,17 +14,23 @@ app.get("/", (req, res) => {
     res.sendFile(path.resolve("./views/home.html"))
 });
 
-app.get("/registro", (req, res) => {
+app.get("/registro.html", (req, res) => {
     res.sendFile(path.resolve("./views/registro.html"))
 });
+
+
+app.post("/registro", (req, res) => {
+    res.sendFile(path.resolve("./views/registro.html"))
+});
+
+app.get("/login",(req, res) =>{
+    res.sendFile(path.resolve("./views/login.html"))
+})
 
 app.get("/carrito", (req, res) => {
     res.sendFile(path.resolve("./views/carrito.html"))
 });
 
-app.post("/registro", (req, res) => {
-    res.send("Felicidades te registraste con exito")
-});
 
 app.get("/productDetail", (req, res) => {
     res.sendFile(path.resolve("./views/productDetail.html"))
@@ -32,3 +38,6 @@ app.get("/productDetail", (req, res) => {
 
 
 
+app.post("/login.html", (req, res)=> {
+    res.sendFile("./views/login.html")
+})
