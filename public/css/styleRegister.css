@@ -11,6 +11,7 @@
 --fuentePrincipal: "Open Sans", sans-serif;
 }
 *{
+font-family: var(--fuentePrincipal);
 margin: 0;
 padding: 0px;
 box-sizing: border-box;

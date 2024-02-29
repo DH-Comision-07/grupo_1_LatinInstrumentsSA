@@ -12,23 +12,23 @@
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <a href="/"><h1>LATININSTRUMENTS SA</h1></a>
+                <a href="/"><h1>LATIN INSTRUMENTS SA</h1></a>
             </div>
         </nav>
     </header>
         <div class="container-form">
             <form action="/registro" metthod="POST" class="form">
                 <label for="nombre"></label>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
 
                 <label for="email"></label>
-                <input type="text" id="email" name="email" placeholder="E-mail">
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
 
                 <label for="contrasenia"></label>
-                <input type="text" id="constrasenia" name="constrasenia" placeholder="Cree su contraseña">
+                <input type="password" id="constrasenia" name="constrasenia" placeholder="Cree su contraseña" required>
                 
                 <label for="repite-contrasenia"></label>
-                <input type="text" id="repite-constrasenia" name="repite-constrasenia" placeholder="Repita su contraseña">
+                <input type="password" id="repite-constrasenia" name="repite-constrasenia" placeholder="Repita su contraseña" required>
                 <label for="registrate"></label>
                     <input type="submit" value="Registrate" name="registrate" id="registrate" class="input-button">
                 
