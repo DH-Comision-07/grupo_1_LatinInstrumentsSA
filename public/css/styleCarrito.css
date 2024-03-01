@@ -64,6 +64,7 @@ h1{
 	}
 	main .productos{
 		height: 100%;
+		margin-top:25% !important
 	}
 }
 
@@ -85,7 +86,8 @@ h1{
 	margin: 8%;
 
 }
-.productos{
+.productos h3{
+	font-size: 3rem;
 	/* position: relative; */
 } 
 .titulo, .productos {
@@ -99,7 +101,7 @@ h1{
 }
 main .productos{
     width: 50%;
-	height: 100%;
+	margin-top:15%
 }
 .item-compra{
 	display: flex;
@@ -108,6 +110,8 @@ main .productos{
 	margin: 5px; 
 	height: 15%;
 	align-items: center;
+	/* max-width: 80%; */
+	width: 100%;
 	
 }
 /* .item-imagen{
@@ -115,8 +119,8 @@ main .productos{
 	max-height: 150px;
 } */
 img {
-    width: 80%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
 	margin: 5%;
 
 }
@@ -172,7 +176,6 @@ input{
         display: flex;
         align-items: center;
         flex-direction: column;
-		width: 70%;
 		/* max-width: 245px; */
 	}
 
@@ -186,6 +189,8 @@ input{
     display: flex;
     align-items: center;
     flex-direction: row;
+	width: 100%;
+	overflow: hidden;
 }
 }
 @media (max-width: 767px){
