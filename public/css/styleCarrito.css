@@ -209,11 +209,13 @@ input{
 	box-shadow: 0 0 10px;
 	height: 25%;
 	margin: 5%;
+	width: 55%;
 }
 .subtotal, .costo-envio, .total-pagar{
 	padding: 10px;
 	color: white;
 	max-height: 5%;
+	margin:auto
 }
 .total-pagar{
 	margin-bottom: 15px;
