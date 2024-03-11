@@ -3,7 +3,7 @@ const login = (req, res) => {
 };
 
 const registro = (req, res) => {
-	res.render("login");
+	res.render("registro");
 };
 
 module.exports = { registro, login };
