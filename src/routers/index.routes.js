@@ -38,4 +38,8 @@ routes.get("/productDetail", (req, res) => {
 	res.sendFile(path.resolve("./src/views/productDetail.html"));
 });
 
+routes.get("/nosotros", (req, res) => {
+	res.sendFile(path.resolve("./src/views/nosotros.html"));
+});
+
 module.exports = routes;
