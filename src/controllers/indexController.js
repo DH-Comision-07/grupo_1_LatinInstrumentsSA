@@ -1,11 +1,5 @@
-const indexController = {
-    goHome: function(req,res) {
-        res.render("home")
-    },
-    goCarrito: function(req,res) {
-        res.render("carrito")
-    }  
+const home = (req, res) => {
+	res.render("home");
+};
 
-}
-
-module.exports = indexController;
+module.exports = { home };
