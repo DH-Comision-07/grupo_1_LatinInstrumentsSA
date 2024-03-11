@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const indexRouter = require("./src/routers/index.routes.js");
+const indexRouter = require("./src/routes/index.routes.js");
 
 app.use(express.static("public"));
 
