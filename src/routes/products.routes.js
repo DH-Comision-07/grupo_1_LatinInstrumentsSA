@@ -1,7 +1,8 @@
 const express = require("express");
-const router = express.Router();
+const routes = express.Router();
+const productConstroller = require("../controllers/productsController");
 
-router.get("/", (req, res) => res.send("Estas viendo el listado de productos"));
-router.get("/:id", (req, res) => res.send(`Estas viendo el detalle del producto nro ${req.params.id}`));
+routes.get("/", (req, res) => res.send("Estas viendo el listado de productos"));
+routes.get("/:id", (req, res) => res.send(`Estas viendo el detalle del producto nro ${req.params.id}`));
 
-module.exports = router;
+module.exports = routes;
