@@ -1,13 +1,18 @@
 const express = require("express");
+const usersRoutes = require("./src/routes/usersRoutes.js");
+const indexRoutes = require("./src/routes/indexRoutes.js");
+
 const app = express();
-const indexRouter = require("./src/routes/index.routes.js");
+
+app.set("view engine", "ejs");
+app.set("views", "./src/views");
 
 app.use(express.static("public"));
 
+app.use("/", usersRoutes);
+app.use("/", indexRoutes);
+
 const port = 3131;
-
-app.use("/", indexRouter);
-
 app.listen(port, () => {
 	console.log(`El servidor corre en el puerto ${port}`);
 });
