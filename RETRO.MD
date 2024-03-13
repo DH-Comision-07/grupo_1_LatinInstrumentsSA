@@ -23,3 +23,23 @@ El objetivo del primer sprint fue iniciar el proceso de diseño de la página we
 - **Refinar procesos de comunicación:** Implementaremos prácticas para mejorar la claridad en la comunicación, como el uso de herramientas de seguimiento de tareas y la programación regular de actualizaciones de estado.
 
 Esta retrospectiva nos brinda una base sólida para identificar áreas de mejora y establecer un plan de acción para el próximo sprint. Con un enfoque renovado en la colaboración y la comunicación efectiva, estamos seguros de que podemos superar los desafíos y avanzar con éxito en el desarrollo del proyecto.
+
+- **Retro: 3° Sprint**
+
+- **Start Doing:**
+-Separar los archivos css en secciones, para que cada parte de las páginas tengan su propia hoja de estilos.
+-Refinar estilos.
+-Separar componentes repetidos en archivos parciales.
+- **More of:**  
+-Reuniones de avance para discutir el progreso y abordar cualquier problema que surgiera.
+-Creacion de ramas de trabajo individuales, para un mejor trabajo colaborativo.
+
+- **Keep Doing:**  
+-Comunicación fluida con el equipo y apoyo de los miembros con mas experiencia para despejar dudas al resto.
+-Distribución de tareas mediante trello.
+- **Less of:**  
+Investigar y evaluar herramientas de colaboración en tiempo real , si bien esto estaba planteado para la creación de wireframes, se pueden revisar otras herramientas para acompañar.
+- **Stop Doing:**  
+Por el momento no descartamos ninguna practica, ya que seguimos explorando el trabajo colaborativo
+
+
