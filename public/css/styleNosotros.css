@@ -56,6 +56,8 @@ h3 {
 .contenedor {
 	max-width: 120rem;
 	margin: 0 auto;
+	padding-top: 10rem;
+	padding-bottom: 5rem;
 }
 
 .nosotros {
