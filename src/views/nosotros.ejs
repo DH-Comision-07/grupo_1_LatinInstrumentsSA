@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="css/styleNosotros.css" />
 	</head>
 	<body>
+		<%- include ("partials/Header.ejs") %>
 		<main class="contenedor">
 			<h1>Nosotros</h1>
 
@@ -24,33 +25,34 @@
 				</div>
 				<img src="/img/nosotros/nosotros.jpg" alt="Nosotros imagen" class="nosotros__imagen" />
 			</div>
+
+			<section class="contenedor comprar">
+				<h2 class="comprar__titulo">¿Por qué comprar con nosotros?</h2>
+
+				<div class="bloques">
+					<div class="bloque">
+						<img class="bloque__img" src="/img/nosotros/icono_1.png" alt="por que comprar" />
+						<h3 class="bloque__titulo">El Mejor Precio</h3>
+						<p>Eveniet vel necessitatibus voluptatibus quasi officiis. Maiores exercitationem voluptatem ipsam, ipsum saepe fugiat expedita asperiores optio accusantium possimus. Rerum quae iusto error!</p>
+					</div>
+					<div class="bloque">
+						<img class="bloque__img" src="/img/nosotros/icono_2.png" alt="para devs" />
+						<h3 class="bloque__titulo">Para Desarrolladores</h3>
+						<p>Eveniet vel necessitatibus voluptatibus quasi officiis. Maiores exercitationem voluptatem ipsam, ipsum saepe fugiat expedita asperiores optio accusantium possimus. Rerum quae iusto error!</p>
+					</div>
+					<div class="bloque">
+						<img class="bloque__img" src="/img/nosotros/icono_3.png" alt="envio gratis" />
+						<h3 class="bloque__titulo">Envio Gratis</h3>
+						<p>Eveniet vel necessitatibus voluptatibus quasi officiis. Maiores exercitationem voluptatem ipsam, ipsum saepe fugiat expedita asperiores optio accusantium possimus. Rerum quae iusto error!</p>
+					</div>
+					<div class="bloque">
+						<img class="bloque__img" src="/img/nosotros/icono_4.png" alt="mejor calidad" />
+						<h3 class="bloque__titulo">La mejor calidad</h3>
+						<p>Eveniet vel necessitatibus voluptatibus quasi officiis. Maiores exercitationem voluptatem ipsam, ipsum saepe fugiat expedita asperiores optio accusantium possimus. Rerum quae iusto error!</p>
+					</div>
+				</div>
+			</section>
 		</main>
-
-		<section class="contenedor comprar">
-			<h2 class="comprar__titulo">¿Por qué comprar con nosotros?</h2>
-
-			<div class="bloques">
-				<div class="bloque">
-					<img class="bloque__img" src="/img/nosotros/icono_1.png" alt="por que comprar" />
-					<h3 class="bloque__titulo">El Mejor Precio</h3>
-					<p>Eveniet vel necessitatibus voluptatibus quasi officiis. Maiores exercitationem voluptatem ipsam, ipsum saepe fugiat expedita asperiores optio accusantium possimus. Rerum quae iusto error!</p>
-				</div>
-				<div class="bloque">
-					<img class="bloque__img" src="/img/nosotros/icono_2.png" alt="para devs" />
-					<h3 class="bloque__titulo">Para Desarrolladores</h3>
-					<p>Eveniet vel necessitatibus voluptatibus quasi officiis. Maiores exercitationem voluptatem ipsam, ipsum saepe fugiat expedita asperiores optio accusantium possimus. Rerum quae iusto error!</p>
-				</div>
-				<div class="bloque">
-					<img class="bloque__img" src="/img/nosotros/icono_3.png" alt="envio gratis" />
-					<h3 class="bloque__titulo">Envio Gratis</h3>
-					<p>Eveniet vel necessitatibus voluptatibus quasi officiis. Maiores exercitationem voluptatem ipsam, ipsum saepe fugiat expedita asperiores optio accusantium possimus. Rerum quae iusto error!</p>
-				</div>
-				<div class="bloque">
-					<img class="bloque__img" src="/img/nosotros/icono_4.png" alt="mejor calidad" />
-					<h3 class="bloque__titulo">La mejor calidad</h3>
-					<p>Eveniet vel necessitatibus voluptatibus quasi officiis. Maiores exercitationem voluptatem ipsam, ipsum saepe fugiat expedita asperiores optio accusantium possimus. Rerum quae iusto error!</p>
-				</div>
-			</div>
-		</section>
+		<%- include ("partials/Footer.ejs") %>
 	</body>
 </html>
