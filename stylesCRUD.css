@@ -1,0 +1,139 @@
+:root {
+	--naranjaOscuro: #cb997e;
+	--naranja: #ddbea9;
+	--naranjaClaro: #ffe8d6;
+	--verdeClaro: #b7b7a4;
+	--verde: #a5a58d;
+	--verdeOscuro: #6b705c;
+	--blanco: #ffffff;
+	--negro: #000;
+	--gris: #666;
+	--fuentePrincipal: "Open Sans", sans-serif;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+	background-color: var(--naranjaClaro);
+}
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+* {
+	font-family: var(--fuentePrincipal), sans-serif;
+}
+
+.contenido {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.contenido h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 2.2rem;
+	border-bottom: 1px solid #ebebeb;
+	color: #666666;
+}
+.ver .crear-nuevo {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #38b673;
+	font-weight: bold;
+	font-size: 1.4rem;
+	color: #ffffff;
+	padding: 10px 15px;
+	margin: 15px 0;
+	border-radius: 1.2rem;
+}
+.ver .crear-nuevo:hover {
+	background-color: #32a367;
+}
+.ver .paginacion {
+	display: flex;
+	justify-content: flex-end;
+}
+.ver .paginacion a {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #a5a7a9;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 5px 10px;
+	margin: 15px 0 15px 5px;
+}
+.ver .paginacion a:hover {
+	background-color: #999b9d;
+}
+.ver table {
+	width: 100%;
+	padding-top: 30px;
+	border-collapse: collapse;
+}
+.ver table thead {
+	background-color: #ebeef1;
+	border-bottom: 1px solid #d3dae0;
+}
+.ver table thead td {
+	padding: 10px;
+	font-weight: bold;
+	color: #767779;
+	font-size: 1.8rem;
+}
+.ver table tbody tr {
+	border-bottom: 1px solid #d3dae0;
+}
+.ver table tbody tr {
+	background-color: #fbfcfc;
+}
+.ver table tbody tr:hover {
+	background-color: #376ab7;
+}
+.ver table tbody tr:hover td {
+	color: #ffffff;
+}
+
+.ver table tbody tr td {
+	padding: 10px;
+	font-size: 1.6rem;
+}
+.ver table tbody tr td:nth-child(1) {
+	color: #a5a7a9;
+}
+.ver table tbody tr td.acciones {
+	padding: 8px;
+	text-align: right;
+}
+.ver table tbody tr td.acciones .editar,
+.ver table tbody tr td.acciones .borrar {
+	display: inline-flex;
+	text-align: right;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 1.4rem;
+	border-radius: 1rem;
+}
+.ver table tbody tr td.acciones .borrar {
+	background-color: #b73737;
+}
+.ver table tbody tr td.acciones .borrar:hover {
+	background-color: #a33131;
+}
+.ver table tbody tr td.acciones .editar {
+	background-color: #37afb7;
+}
+.ver table tbody tr td.acciones .editar:hover {
+	background-color: #319ca3;
+}
