@@ -13,27 +13,27 @@
                 <h2 class="titulo-editando">Creando Artículo</h2>
                 <div class="container-input">
                     <label class="label-form">
-                        <input type="file" class="form-input-img" accept=".jpg , .png , .JPEG">
+                        <input type="file" name="imagen" class="form-input-img" accept=".jpg , .png , .JPEG">
                     </label>
                 </div>
                 <div class="container-input">
                     <label class="label-form">
-                        <input class="in-nombre" type="text" class="form-input" placeholder="Nombre del producto">
+                        <input class="in-nombre" type="text" name="producto" class="form-input" placeholder="Nombre del producto">
                     </label>
                 </div>
                 <div class="container-input">
                     <label class="label-form">
-                        <input class="in-marca" type="text" class="form-input" placeholder="Marca">
+                        <input class="in-marca" type="text" name="marca" class="form-input" placeholder="Marca">
                     </label>
                 </div>
                 <div class="container-input-descripcion">
                     <!-- <label class="label-form-descripcion"> -->
-                        <textarea class="in-descripcion"> Descripción </textarea>
+                        <textarea class="in-descripcion" name="descripcion" placeholder="Descripcion"> </textarea>
                     <!-- </label> -->
                 </div>
                 <div class="container-input">
                     <label class="label-categoria">
-                        <select class="select-categoria" id="condicionador" name="condicionador">
+                        <select class="select-categoria" id="condicionador" name="categoria">
                             <option value="">Categoría</option>
                             <option value="instrumentos">Instrumentos</option>
                             <option value="accesorios">Accesorios</option>
@@ -43,11 +43,11 @@
                 </div>
                 <div class="container-input">
                     <label>
-                        <input class="in-precio" type="text" class="form-input" placeholder="Precio">
+                        <input class="in-precio" type="text" name="Precio" class="form-input" placeholder="Precio">
                     </label>
                 </div>
                 <br />
-                <button class="seguir"><a class="seguir-label" href="/">AGREGAR PRODUCTO</a></button>
+                <button class="seguir"><a class="seguir-label" href="/product/create">AGREGAR PRODUCTO</a></button>
             </form>
         </article>
     </main>

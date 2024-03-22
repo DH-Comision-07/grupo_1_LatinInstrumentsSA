@@ -8,9 +8,9 @@ router.get("/edit", productsController.Edit);
 router.get("/create", productsController.Create);
 
 router.post('/create', (req,res)=>{
-    console.log(req.body);
+    res.send(console.log(req.body));
 
-    res.redirect('/')
+    // res.redirect('/')
 })
 
 module.exports = router;
