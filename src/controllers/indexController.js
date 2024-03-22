@@ -1,13 +1,15 @@
-const home = (req, res) => {
-	res.render("home");
-};
+const indexController ={
+	home : function(req, res){
+		res.render('home')
+	},
 
-const carrito = (req, res) => {
-	res.render("carrito");
-};
+	carrito : function(req,res) {
+		res.render('carrito')
+	},
 
-const nosotros = (req, res) => {
-	res.render("nosotros");
-};
+	nosotros : function(req, res){
+		res.render('nosotros')
+	}
+}
 
-module.exports = { home, carrito, nosotros };
+module.exports = indexController;

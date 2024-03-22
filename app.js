@@ -1,7 +1,7 @@
 const express = require("express");
 const usersRoutes = require("./src/routes/usersRoutes.js");
 const indexRoutes = require("./src/routes/indexRoutes.js");
-const productRoutes = require("./src/routes/productRoutes.js");
+const productsRoutes = require("./src/routes/productsRoutes.js");
 
 const app = express();
 
@@ -10,9 +10,9 @@ app.set("views", "./src/views");
 
 app.use(express.static("public"));
 
-app.use("/", usersRoutes);
+app.use("/users", usersRoutes);
 app.use("/", indexRoutes);
-app.use("/", productRoutes);
+app.use("/product", productsRoutes);
 
 const port = 3131;
 app.listen(port, () => {

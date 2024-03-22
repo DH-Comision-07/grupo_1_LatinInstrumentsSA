@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="/css/styleEditCreate.css" />
+    <link rel="stylesheet" href="/css/styleHome.css" />
+</head>
+<body class="body-edit">
+    <%- include ("partials/Header.ejs") %>
+    <main class="main-edit">
+        <article class="container-form">
+            <form class="product-edit" action="/product/create" method="post">
+                <h2 class="titulo-editando">Creando Artículo</h2>
+                <div class="container-input">
+                    <label class="label-form">
+                        <input type="file" class="form-input-img" accept=".jpg , .png , .JPEG">
+                    </label>
+                </div>
+                <div class="container-input">
+                    <label class="label-form">
+                        <input class="in-nombre" type="text" class="form-input" placeholder="Nombre del producto">
+                    </label>
+                </div>
+                <div class="container-input">
+                    <label class="label-form">
+                        <input class="in-marca" type="text" class="form-input" placeholder="Marca">
+                    </label>
+                </div>
+                <div class="container-input-descripcion">
+                    <!-- <label class="label-form-descripcion"> -->
+                        <textarea class="in-descripcion"> Descripción </textarea>
+                    <!-- </label> -->
+                </div>
+                <div class="container-input">
+                    <label class="label-categoria">
+                        <select class="select-categoria" id="condicionador" name="condicionador">
+                            <option value="">Categoría</option>
+                            <option value="instrumentos">Instrumentos</option>
+                            <option value="accesorios">Accesorios</option>
+                            <option value="vinilos">Vinilos</option>
+                        </select>           
+                    </label>
+                </div>
+                <div class="container-input">
+                    <label>
+                        <input class="in-precio" type="text" class="form-input" placeholder="Precio">
+                    </label>
+                </div>
+                <br />
+                <button class="seguir"><a class="seguir-label" href="/">AGREGAR PRODUCTO</a></button>
+            </form>
+        </article>
+    </main>
+</body>
+</html>

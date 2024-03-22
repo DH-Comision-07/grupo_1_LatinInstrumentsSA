@@ -11,11 +11,11 @@
     <%- include ("partials/Header.ejs") %>
     <main class="main-edit">
         <article class="container-form">
-            <form class="product-edit" action="productEditCreate" method="get">
+            <form class="product-edit" action="/product/edit" method="post">
                 <h2 class="titulo-editando">Editando Artículo</h2>
                 <div class="container-input">
                     <label class="label-form">
-                        <input type="file" class="form-input-img" accept=".jpg , .png , .JEPG">
+                        <input type="file" class="form-input-img" accept=".jpg , .png , .JPEG">
                     </label>
                 </div>
                 <div class="container-input">
@@ -49,7 +49,7 @@
                     </label>
                 </div>
                 <br />
-                <button class="seguir"><a class="seguir-label" href="/">AGREGAR PRODUCTO</a></button>
+                <button class="seguir"><a class="seguir-label" href="/">EDITAR PRODUCTO</a></button>
             </form>
         </article>
     </main>

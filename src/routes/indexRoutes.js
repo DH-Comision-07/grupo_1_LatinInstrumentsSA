@@ -1,10 +1,10 @@
 const express = require("express");
-const { home, carrito, nosotros } = require("../controllers/indexController");
+const indexController= require("../controllers/indexController");
 
 const router = express.Router();
 
-router.get("/", home);
-router.get("/carrito", carrito);
-router.get("/nosotros", nosotros);
+router.get("/", indexController.home);
+router.get("/carrito", indexController.carrito);
+router.get("/nosotros", indexController.nosotros);
 
 module.exports = router;

@@ -1,9 +1,11 @@
-const login = (req, res) => {
-	res.render("login");
-};
+const usersController = {
+	login : function(req,res){
+		res.render('login')
+	},
 
-const registro = (req, res) => {
-	res.render("registro");
-};
+	registro : function (req,res){
+		res.render('registro')
+	}
+}
 
-module.exports = { registro, login };
+module.exports = usersController;
