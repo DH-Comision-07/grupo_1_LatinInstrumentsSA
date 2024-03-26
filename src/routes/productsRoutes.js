@@ -7,10 +7,6 @@ router.get("/detail", productsController.Detail);
 router.get("/edit", productsController.Edit);
 router.get("/create", productsController.Create);
 
-router.post('/create', (req,res)=>{
-    res.send(console.log(req.body));
-
-    // res.redirect('/')
-})
+router.post('/create', productsController.save);
 
 module.exports = router;

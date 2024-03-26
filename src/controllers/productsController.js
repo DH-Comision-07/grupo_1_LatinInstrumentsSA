@@ -1,3 +1,5 @@
+const productService = require ('../data/productsService')
+
 
 const productsController = {
 
@@ -9,6 +11,11 @@ const productsController = {
 	},
 	Edit: function (req,res) {
 		res.render("productEdit");
+	},
+	save: function (req,res){
+		console.log(req.body);
+
+		// res.redirect('/');
 	}
 }
 
